@@ -1,0 +1,5 @@
+{
+  "browser": "Chrome_Remote",
+  "implicit_wait": 10,
+  "baseURL": "https://www.cinimi.com/"
+}
