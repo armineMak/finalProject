@@ -5,7 +5,7 @@ from locators import SearchLocators
 class SearchInput(BasePage):
     _search_input = SearchLocators.search_field
     _assert_movie_title = SearchLocators.movie_page_title
-    _find_search_icon = SearchLocators.movie_item
+    _find_movie_item = SearchLocators.movie_item
 
     def __init__(self, driver):
         self.driver = driver
@@ -14,7 +14,7 @@ class SearchInput(BasePage):
         self._type(self._search_input, search_field)
 
     def click_on_movie_item_(self):
-        self._click(self._find_search_icon)
+        self._click(self._find_movie_item)
 
     def search_movies_titles_(self):
         return self._is_displayed(self._assert_movie_title)
