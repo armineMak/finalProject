@@ -1,3 +1,5 @@
+import time
+
 from Pages.login_page import LoginPage
 from Pages.main_page import MainPage
 from Pages.search_box import SearchInput
@@ -16,14 +18,14 @@ class TestFinalProject():
         main_page.go_login()
 
         signin_page = LoginPage(browser)
-        signin_page.login_fields_("armine4@mailinator.com", "armine")
+        signin_page.login_fields_("armine@mailinator.com", "armine")
         assert signin_page.button_displayed_()
 
         # After log in, click the username button, go to the user account, fill in the empty fields,
         # click the save button, make sure that after saving the information, the user is redirected to the home page
         user_account_page = UserAccountSettings(browser)
         user_account_page.click_on_username_button_()
-        user_account_page.fill_first_last_username_("armine", "test", "armineTest4")
+        user_account_page.fill_first_last_username_("mak", "arm", "makArm")
         user_account_page.click_on_save_button_()
         assert user_account_page.movies_container_displayed_()
 

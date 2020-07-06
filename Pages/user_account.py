@@ -17,8 +17,13 @@ class UserAccountSettings(BasePage):
         self._click(self._username_button_click)
 
     def fill_first_last_username_(self, user_account_first_name, user_account_last_name, user_account_username):
+        self._find_and_clear(self._first_name_input)
         self._type(self._first_name_input, user_account_first_name)
+
+        self._find_and_clear(self._last_name_input)
         self._type(self._last_name_input, user_account_last_name)
+
+        self._find(self._account_username).clear()
         self._type(self._account_username, user_account_username)
 
     def click_on_save_button_(self):

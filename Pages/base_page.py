@@ -1,6 +1,7 @@
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.keys import Keys
 
 
 class BasePage():
@@ -15,6 +16,10 @@ class BasePage():
 
     def _type(self, locator, input_text):
         self._find(locator).send_keys(input_text)
+
+    def _find_and_clear(self, locator):
+        self._find(locator).send_keys(Keys.CONTROL + "a")
+        self._find(locator).send_keys(Keys.DELETE)
 
     def _is_displayed(self, locator, timeout=0):
         if timeout > 0:

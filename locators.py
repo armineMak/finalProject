@@ -30,5 +30,5 @@ class UserAccountSettingsLocators(object):
     user_account_first_name = {"by": By.ID, "value": "first_name"}
     user_account_last_name = {"by": By.ID, "value": "last_name"}
     user_account_username = {"by": By.NAME, "value": "username"}
-    account_save_button = {"by": By.CSS_SELECTOR, "value": "div.movieBottomBtn > div > input"}
+    account_save_button = {"by": By.XPATH, "value": '//*[@id="users_add_form"]/div[3]/div/input'}
     homepage_movies_container = {"by": By.ID, "value": "movies_holder"}
