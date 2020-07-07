@@ -7,6 +7,7 @@ class LoginPage(BasePage):
     _password_input = LoginPageLocators.password_field
     _submit_button = LoginPageLocators.sign_in_button
     _assert_element = LoginPageLocators.homepage_assert
+    _error_message = LoginPageLocators.error_message_content
 
     def __init__(self, driver):
         self.driver = driver
@@ -18,3 +19,9 @@ class LoginPage(BasePage):
 
     def button_displayed_(self):
         return self._is_displayed(self._assert_element)
+
+    def error_content_displayed_(self):
+        return self._is_displayed(self._error_message)
+
+    def get_error_message_text_(self):
+        return self._find(self._error_message).text

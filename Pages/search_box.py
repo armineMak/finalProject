@@ -18,3 +18,4 @@ class SearchInput(BasePage):
 
     def search_movies_titles_(self):
         return self._is_displayed(self._assert_movie_title)
+

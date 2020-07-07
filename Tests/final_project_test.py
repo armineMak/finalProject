@@ -10,7 +10,7 @@ from Pages.user_account import UserAccountSettings
 class TestFinalProject():
 
      # using config.json
-    def test_final_project(self, browser):
+    def test_valid_signin(self, browser):
 
         # Open the main page, go to the sign page and sign in with valid credentials, assert log out
         # button is displayed
@@ -29,6 +29,15 @@ class TestFinalProject():
         user_account_page.click_on_save_button_()
         assert user_account_page.movies_container_displayed_()
 
+    def test_invalid_signin(self, browser):
+        main_page = MainPage(browser)
+        main_page.go_login()
+
+        signin_page = LoginPage(browser)
+        signin_page.login_fields_("arm@mailinator.com", "armine")
+        assert signin_page.error_content_displayed_()
+        print(signin_page.get_error_message_text_())
+
     def test_search_box(self, browser):
         # Find the search box, input some movie title, click on the movie and assert the title
         main_page = MainPage(browser)
@@ -42,6 +51,7 @@ class TestFinalProject():
         video_frame.iframe_displayed_()
         video_frame.switch_to_video_frame_()
         assert video_frame.get_video_title_()
+        print(video_frame.get_video_title_())
 
 
 

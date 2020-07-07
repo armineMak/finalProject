@@ -11,6 +11,7 @@ class LoginPageLocators(object):
     password_field = {"by": By.ID, "value": "password"}
     sign_in_button = {"by": By.ID, "value": "sign_in"}
     homepage_assert = {"by": By.CSS_SELECTOR, "value": ".logOutHolder"}
+    error_message_content = {"by": By.CSS_SELECTOR, "value":".error-list"}
 
 
 class SearchLocators(object):
