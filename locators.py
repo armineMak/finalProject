@@ -4,6 +4,30 @@ from selenium.webdriver.common.by import By
 # To find most items, use id
 class MainPageLocators(object):
     login_button = {"by": By.ID, "value": "login"}
+    sign_up_button = {"by": By.ID, "value": "register"}
+
+
+class RegisterPageLocators(object):
+    # register page locators
+    email_field = {"by": By.ID, "value": "email"}
+    register_password_field = {"by": By.ID, "value": "password"}
+    confirm_password_field = {"by": By.ID, "value": "confirm_password"}
+    register_submit_button = {"by": By.ID, "value": "register_submit"}
+    success_message = {"by": By.CSS_SELECTOR, "value": "div.notifications-area > div > div > p.w-400"}
+    success_message_after_signup = {"by": By.LINK_TEXT, "value": "Thank you for verifying your email address!"}
+
+    # domains locators
+    # damoin1
+    mailinator_email_field = {"by": By.ID, "value": "inbox_field"}
+    inbox_submit_button = {"by": By.ID, "value": "go_inbox"}
+    email_row = {"by": By.LINK_TEXT, "value": "Email Verification"}
+    mailinator_frame = {"by": By.ID, "value": "msg_body"}
+    #confirm_email_link = {"by": By.PARTIAL_LINK_TEXT, "value": "signin"}
+    confirm_email_link = {"by": By.XPATH, "value": '//*[@id="backgroundTable"]//tbody/tr[2]/td/table/tbody/tr[6]/td/a'}
+    # domain2
+    yopmail_email_field = {"by": By.ID, "value": "login"}
+    yopmail_frame = {"by": By.ID, "value": "ifmail"}
+    confirm_email_link1 = {"by": By.PARTIAL_LINK_TEXT, "value": "signin"}
 
 
 class LoginPageLocators(object):
@@ -11,7 +35,7 @@ class LoginPageLocators(object):
     password_field = {"by": By.ID, "value": "password"}
     sign_in_button = {"by": By.ID, "value": "sign_in"}
     homepage_assert = {"by": By.CSS_SELECTOR, "value": ".logOutHolder"}
-    error_message_content = {"by": By.CSS_SELECTOR, "value":".error-list"}
+    error_message_content = {"by": By.CSS_SELECTOR, "value": ".error-list"}
 
 
 class SearchLocators(object):

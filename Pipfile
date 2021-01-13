@@ -11,6 +11,7 @@ selenium = "*"
 pytest-xdist = "*"
 ec = "*"
 wait = "*"
+utils = "*"
 
 [requires]
 python_version = "3.8"

@@ -1,0 +1,128 @@
+1598974082554	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Armush\\AppData\\Local\\Temp\\rust_mozprofileWm2osf"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598974088813	Marionette	INFO	Listening on port 49655
+1598974088956	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 86: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 202: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 308: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 487: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 308: unreachable code after return statement
+JavaScript error: https://www.mailinator.com/js/m8rv3.js?887, line 18: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1598974125507	Marionette	INFO	Stopped listening on port 49655
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 9008, Gecko_IOThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+1598974152191	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Armush\\AppData\\Local\\Temp\\rust_mozprofilehM20hv"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598974156862	Marionette	INFO	Listening on port 49817
+1598974157008	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 86: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 202: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 308: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 487: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 308: unreachable code after return statement
+JavaScript error: https://www.mailinator.com/js/m8rv3.js?887, line 18: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1598974203215	Marionette	INFO	Stopped listening on port 49817
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598974445959	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Armush\\AppData\\Local\\Temp\\rust_mozprofileNPdHMf"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598974451590	Marionette	INFO	Listening on port 50507
+1598974451773	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 86: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 202: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 308: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 487: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 308: unreachable code after return statement
+JavaScript error: https://www.mailinator.com/js/m8rv3.js?887, line 18: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1598974479088	Marionette	INFO	Stopped listening on port 50507
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598974492859	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Armush\\AppData\\Local\\Temp\\rust_mozprofileBIPStA"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598974497103	Marionette	INFO	Listening on port 50738
+1598974497191	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 86: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 202: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 308: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 487: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 308: unreachable code after return statement
+1598974586552	Marionette	INFO	Stopped listening on port 50738
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 19868, Gecko_IOThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+1598974661256	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Armush\\AppData\\Local\\Temp\\rust_mozprofileONdOA3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598974665291	Marionette	INFO	Listening on port 51084
+1598974665438	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 86: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 202: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 308: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 487: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 308: unreachable code after return statement
+1598974776716	Marionette	INFO	Stopped listening on port 51084
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598974794486	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Armush\\AppData\\Local\\Temp\\rust_mozprofileS7hF1Z"
+1598974857375	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Armush\\AppData\\Local\\Temp\\rust_mozprofileEEPn1c"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598974861988	Marionette	INFO	Listening on port 51368
+1598974862200	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 86: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 202: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 308: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 487: unreachable code after return statement
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 308: unreachable code after return statement
+1598974888433	Marionette	INFO	Stopped listening on port 51368
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598974953968	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Armush\\AppData\\Local\\Temp\\rust_mozprofileFBIinH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598974958104	Marionette	INFO	Listening on port 51539
+1598974958224	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 86: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 202: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 308: unreachable code after return statement
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 487: unreachable code after return statement
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+JavaScript warning: http://35.173.232.240/assets/js/util/home/home_main.js, line 308: unreachable code after return statement
+1598974984249	Marionette	INFO	Stopped listening on port 51539
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

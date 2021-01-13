@@ -14,12 +14,18 @@ class BasePage():
     def _click(self, locator):
         self._find(locator).click()
 
+    def _click_by_js(self, locator):
+        self.driver.execute_script("arguments[0].click();", self._find(locator))
+
     def _type(self, locator, input_text):
         self._find(locator).send_keys(input_text)
 
     def _find_and_clear(self, locator):
         self._find(locator).send_keys(Keys.CONTROL + "a")
         self._find(locator).send_keys(Keys.DELETE)
+
+    def _enter_button(self, locator):
+        self._find(locator).send_keys(Keys.RETURN)
 
     def _is_displayed(self, locator, timeout=0):
         if timeout > 0:

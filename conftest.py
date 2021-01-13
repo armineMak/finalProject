@@ -2,7 +2,6 @@ import json
 import pytest
 import selenium.webdriver
 import os
-from selenium import webdriver
 
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
@@ -27,12 +26,10 @@ def browser(config):
         b = selenium.webdriver.Firefox()
     elif config['browser'] == 'Chrome':
         b = selenium.webdriver.Chrome()
-
     elif config['browser'] == 'Chrome_Remote':
         b = selenium.webdriver.Remote(
             command_executor='http://localhost:4444/wd/hub',
             desired_capabilities=DesiredCapabilities.CHROME)
-
     elif config['browser'] == "Headless Chrome":
         opts = selenium.webdriver.ChromeOptions()
         opts.add_argument('headless')

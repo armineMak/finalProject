@@ -1,5 +1,5 @@
 {
-  "browser": "Chrome_Remote",
+  "browser": "Chrome",
   "implicit_wait": 10,
-  "baseURL": "https://www.cinimi.com/"
+  "baseURL": "http://35.173.232.240/"
 }
